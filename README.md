@@ -48,21 +48,16 @@ The workflow is the following:
    * `baseline_U_PCA.m`: Baseline phase of PCA
    * `inspection_U_PCA.m`: Inspection phase of PCA
 
-     
-  
-     
-
+   
 ## Task 1 – Exploratory Analysis
 
 This task focuses on exploring the population of 50 shear-frame structures to understand the variability in geometry and dynamic properties.
 
-### Key Steps
 
 ### Key Steps
 
 - Extracted structural features such as number of storeys, total height, and storey/height statistical quantities
 - Computed statistical quantities of modal frequencies (mean, standard deviation, skewness)  
-- Constructed fixed-size frequency matrices to handle variable number of storeys  
 - Built a simple population graph for visualization purposes based on the cosine similarity of geometric features   
 
 ### Visualizations
@@ -131,7 +126,7 @@ This task investigates an unsupervised PCA-based approach for damage detection u
 
 ### Outcome
 
-The PCA-based method provides an unsupervised baseline for damage detection by identifying deviations from the healthy structural population, although its performance is generally less robust than the supervised SVM approach.
+The PCA-based method provides an unsupervised baseline for damage detection by identifying deviations from the healthy population, although its performance is generally less robust than the supervised SVM approach.
 
 
 ## Main Insights
